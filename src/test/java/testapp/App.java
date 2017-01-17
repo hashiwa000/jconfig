@@ -1,7 +1,5 @@
 package testapp;
 
-import jconfig.Config;
-
 public class App {
   private int value;
   private static int staticValue;
