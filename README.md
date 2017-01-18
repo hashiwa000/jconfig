@@ -1,10 +1,10 @@
 # jconfig
 Total configuration for java application.
 
-# Environments
+## Environments
 - JDK 8
 
-# Build and Test
+## Build and Test
 
 ```
 $ git clone https://github.com/hashiwa000/jconfig.git
@@ -14,7 +14,7 @@ $ ./gradlew build
 
 See build/libs/jconfig.jar .
 
-# How to use
+## How to use
 If you write these application and config file,
 
 ```
