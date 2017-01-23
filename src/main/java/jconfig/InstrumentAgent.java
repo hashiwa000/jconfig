@@ -35,20 +35,6 @@ public class InstrumentAgent {
           } catch(Throwable e) {
             e.printStackTrace();
           }
-
-          //debug
-          //System.out.println("=== end   : classname is " + className);
-          //try {
-          //  if (className.contains("App")) {
-          //    String f = "a.class";
-          //    System.out.println("output " + className + " to " + f);
-          //    try (java.io.OutputStream os = new java.io.FileOutputStream(f))
-          //    {
-          //      os.write(transformed);
-          //    }
-          //  }
-          //} catch(Exception e) {}
-
           return transformed;
         }
     });
